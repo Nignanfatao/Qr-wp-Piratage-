@@ -1,0 +1,22 @@
+{
+    "name": "hacking-md",
+    "description": "je suis  Hacking-Md Whatsapp Chuddy Buddy built in NodeJs to make experience better\n\t if Any Problem : https://youtube.com/@KouameDjakiss?si=k2HqPPSmHBZe3ABd",
+    "logo": "https://telegra.ph/file/b8e378f61794498c29c34.jpg",
+    "repository": "https://github.com/HACKING995/Qr-wp-Piratage-",
+    "keywords": ["whatsappbot", "HackingMd", "hacking Md bot", "hacking-Md", "hackingMdWhatsaooBot", "hackingWaBot","hackingMD","hacking Md Whatsapp Bot","multi device"],
+    "success_url": "/", 
+    "buildpacks": [{ "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" } ],
+    "env": {      
+      "PORT": {
+        "description": "Port for web app.4000,5000,3000... any!",
+        "value": "5000",
+        "required": false 
+      },
+      "MESSAGE": {
+        "description": "set session id conformation message",
+        "value": "╔════◇\n║ *『 BIENVENUE CHEZ HACKING-MD』*\n║ _You complete first step to making Bot._\n╚════════════════════════╝\n╔═════◇\n║  『••• 𝗩𝗶𝘀𝗶𝘁 𝗙𝗼𝗿 𝗛𝗲𝗹𝗽 •••』\n║ *Ytube:* _https://youtube.com/@KouameDjakiss?si=k2HqPPSmHBZe3ABd_\n║ *Owner:* _https://wa.me/22588697148_\n║ *Note :_VOTRE SESSION_ID AVEC HACKING_\n║ _CEST HACKING POUR VOTRE SUPPORT_\n╚════════════════════════╝",
+        "required": false 
+      }
+    }   
+
+}
